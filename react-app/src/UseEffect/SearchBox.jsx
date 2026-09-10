@@ -42,7 +42,7 @@ export default function SearchBox() {
         {/* Result Display - with word wrap */}
         {searchResult ? (
           <div className="px-4 py-4 w-full text-center bg-blue-50 rounded-lg">
-            <p className="break-words font-medium text-blue-700 text-lg">
+            <p className="font-medium text-blue-700 text-lg wrap-break-word">
               {searchResult}
             </p>
           </div>
