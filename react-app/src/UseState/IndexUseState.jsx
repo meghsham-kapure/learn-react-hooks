@@ -5,7 +5,7 @@ import ComplexTypedState from "./ComplexTypedState";
 import LazyInitialization from "./LazyInitialization";
 import UpdatingNestedState from "./UpdatingNestedState";
 
-export default function UseStateIndex() {
+export default function IndexUseState() {
   return (
     <div>
       {/* Use State Examples */}

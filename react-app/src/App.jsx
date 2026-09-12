@@ -1,8 +1,9 @@
-import UseStateIndex from "./UseState/UseStateIndex";
+import UseStateIndex from "./UseState/IndexUseState.jsx";
 import IndexUseEffect from "./UseEffect/IndexUseEffect";
 import IndexUseRef from "./UseRef/IndexUseRef";
-import UseMemoIndex from "./UseMemo/UseMemoIndex.jsx";
-import UseCallbackIndex from "./UseCallback/UseCallbackIndex.jsx";
+import UseMemoIndex from "./UseMemo/IndexUseMemo.jsx";
+import UseCallbackIndex from "./UseCallback/IndexUseCallback.jsx";
+import UseContextIndex from "./UseContext/IndexUseContext.jsx";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <IndexUseRef />
       <UseMemoIndex />
       <UseCallbackIndex />
+      <UseContextIndex />
     </div>
   );
 }
